@@ -1,0 +1,41 @@
+2025/11/20 12:20:33 [error checking if user exists Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)]
+2025/11/20 12:24:58 [error updating loan request Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)]
+2025/11/20 12:34:40 [error checking if user exists Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)]
+2025/11/20 12:45:50 [error checking if user exists Error 1045 (28000): Access denied for user ''@'localhost' (using password: NO)]
+2025/11/20 12:53:53 [welcome home]
+2025/11/20 12:53:59 [user does not exist]
+2025/11/20 12:57:36 [loan request created successfully]
+2025/11/20 12:57:38 [loan request updated successfully]
+2025/11/20 12:57:38 [simulating credit API callback for loan 0 status code: 200]
+2025/11/20 13:07:48 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:08:34 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:14:53 Server stopped: listen tcp: address ::8080: too many colons in address
+2025/11/20 13:15:44 Server stopped: listen tcp: address ::8080: too many colons in address
+2025/11/20 13:18:19 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:18:47 Server stopped: listen tcp: address 8080: missing port in address
+2025/11/20 13:24:24 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:27:49 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:28:26 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:31:31 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:34:40 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:36:42 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:38:45 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:41:29 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:44:44 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:47:59 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:50:17 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:55:48 Server stopped: listen tcp 0.0.0.0:8080: bind: address already in use
+2025/11/20 13:56:41 Server stopped: listen tcp 0.0.0.0:8080: bind: address already in use
+2025/11/20 13:59:14 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 13:59:49 Server stopped: listen tcp :8080: bind: address already in use
+2025/11/20 14:01:47 ListenAndServe failed: listen tcp :8080: bind: address already in use
+2025/11/20 14:01:57 ListenAndServe failed: listen tcp :8080: bind: address already in use
+2025/11/20 14:03:40 ListenAndServe failed: listen tcp :8080: bind: address already in use
+2025/11/20 14:04:04 ListenAndServe failed: listen tcp :8080: bind: address already in use
+2025/11/20 14:06:43 [welcome home]
+2025/11/20 14:08:22 [an error occured Error 1054 (42S22): Unknown column 'name' in 'field list']
+2025/11/20 14:12:43 [success]
+2025/11/20 14:35:05 [error updating loan request Error 1292 (22007): Truncated incorrect INTEGER value: 'uuid']
+2025/11/20 14:39:10 [loan request updated successfully]
+2025/11/20 14:43:04 [success]
+2025/11/20 14:44:23 [user has existing pending request]
