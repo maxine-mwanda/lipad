@@ -1,0 +1,48 @@
+//specific loan ID
+postman request 'http://localhost:8080/loan-requests/:id' \
+  --header 'Content-Type: application/json' \
+  --body '{
+  "id": 42,
+  "user_id": 1,
+  "amount": 15000,
+  "status": "PENDING",
+  "reason": "Requested for emergency coverage",
+  "created_at": "2025-11-20T12:00:00Z",
+  "updated_at": "2025-11-20T12:00:00Z"
+}
+'
+
+//webhook
+postman request POST 'http://localhost:8080/webhook/credit-score' \
+  --header 'Content-Type: application/json' \
+  --body '{
+  "loan_id": "uuid",
+  "score": 720,
+  "status": "APPROVED",
+  "reason": "Good credit history"
+}
+
+
+'
+
+//users
+postman request POST 'http://localhost:8080/users' \
+  --header 'Content-Type: application/json' \
+  --body '{
+  "id": 1,
+  "name": "Maxine",
+  "email": "maxine@example.com",
+  "phone_number": "+254700000000"
+}
+'
+
+//loan requests
+postman request POST 'http://localhost:8080/loan-requests' \
+  --header 'Content-Type: application/json' \
+  --body '{
+  "id": 1,
+  "name": "Maxine",
+  "email": "maxine@example.com",
+  "phone_number": "+254700000000"
+}
+'
