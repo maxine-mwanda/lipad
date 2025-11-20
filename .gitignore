@@ -7,3 +7,6 @@ go sum
 .idea/
 tmp/
 build/
+go1.23.5.linux-amd64.tar.gz.2
+go1.23.5.linux-amd64.tar.gz
+go1.23.5.linux-amd64.tar.gz.1
